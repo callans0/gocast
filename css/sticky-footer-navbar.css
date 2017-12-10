@@ -1,0 +1,410 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;   /* clare custom: 60px */
+  background-color: #fafafa;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #fff;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 3.4em;
+  color: #fff;
+  padding: 50px 0 40px;
+}
+
+h4,
+h5 {
+  color: #777;
+}
+
+.banner {
+  padding: 70px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.banner-explore {
+    /*background-color: #00328F;*/
+    text-align: center;
+    background: radial-gradient(at bottom, #0096D6 12%, #00328F);
+    background-image: radial-gradient(at center bottom, rgb(0, 150, 214) 12%, rgb(0, 50, 143));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.banner-review {
+  /*background-color: #42d1ff;*/
+  text-align: center;
+  background: radial-gradient(at bottom, #0096D6 12%, #00328F);
+  background-image: radial-gradient(at center bottom, rgb(0, 150, 214) 12%, rgb(0, 50, 143));
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.panel {
+  width: 30%;
+}
+
+.navbar-brand {
+  color: #00328F;
+}
+
+.alert-info {
+  text-align: center;
+}
+
+.btn-explore,
+.btn-review {
+  color: #fff;
+  background-color: #B30089;
+  border-color: #B30089;
+}
+
+.btn-explore:hover,
+.btn-review:hover {
+  color: #fff;
+  background-color: #800062;
+  border-color: #800062;
+}
+
+/*------EXPLORE FORM--------*/
+
+.explore-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+.admin-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*------GALLERY--------*/
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-link {
+  min-width: 150px;
+  width: 22.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.gallery-content {
+  padding: 5px;
+}
+
+.gallery-pic {
+  width: 100%;
+  position: relative;
+}
+
+.thumbnail{
+  transition: .1s ease-in;
+}
+
+.cover {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.thumbnail:hover {
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  transform: scale(1.01);
+}
+
+
+.gallery-link img {
+  width: 100%;
+}
+
+.cover p {
+  color: #fff;
+}
+
+
+/*------GLYPHS--------*/
+.glyphicon-star {
+  color: #FFD700;
+  font-size: 3vh;
+}
+
+/*------ PODCAST DETAILS PAGE--------*/
+
+.details-panel {
+  margin: 5%;
+  padding: 5%;
+  background-color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  transform: scale(1.01);
+}
+
+.details h2,
+.details h3 {
+  margin-top: 10px;
+}
+
+.details-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.subscribe {
+  color: #a1a1a1;
+  margin-right: 10px;
+}
+
+.header-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.genre  {
+  flex-grow: 2;
+}
+
+.episode {
+  border: solid red 1px;
+}
+
+.episodes {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*------REVIEWS PAGE--------*/
+
+.review-flex-grid {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-col{
+  width: 100%;
+  flex: 1;
+}
+
+.review-img {
+  width: 100%;
+  height: 100%;
+  flex: auto;
+}
+
+.review-col h2 {
+  margin-top: 10px;
+}
+
+/*------REVIEWS DETAILS PAGE--------*/
+
+.feat-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*------PAGINATION--------*/
+
+ul .pagination {
+  color: #00328F;
+}
+
+
+/*------CONTACT FORM--------*/
+
+.contact-form {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+  box-shadow: 0px 0px 20px 0px rgba(161,161,161,1);
+}
+
+.contact-form form {
+  margin: 20px 0px;
+}
+
+.social-links {
+  display: block;
+  text-align: center;
+  margin: 40px 0 0;
+}
+
+.social-links a {
+  height: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.form-horizontal .form-group {
+  width: 100%;
+}
+
+/*------LOGIN FORM--------*/
+
+.login-form {
+  margin: 0 auto;
+  margin-top: 2vh;
+  padding: 20px 20px;
+  max-width: 500px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/*------MEDIA QUERIES--------*/
+
+@media (min-width: 500px) {
+  .details-header {
+    flex-direction: row;
+  }
+
+  .header-col1 {
+    margin-bottom: 0;
+  }
+
+  .review-flex-grid {
+    flex-direction: row;
+  }
+
+  .review-col-1 {
+    flex-grow: 2;
+  }
+
+  .review-col-2 {
+    padding-left: 15px;
+  }
+
+  .review-img {
+    max-width: 350px;
+  }
+
+}
+
+@media (min-width: 767px) {
+  .explore-form {
+    width: 40%;
+  }
+
+  .feat-img {
+    width: auto;
+    float: right;
+    margin: 10px;
+  }
+
+  .episodes {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .episode {
+    width: 30%;
+  }
+
+  .contact-form {
+    max-width: 60%;
+    min-height: 100vh;
+  }
+
+}
