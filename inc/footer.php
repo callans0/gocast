@@ -2,7 +2,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">&copy 2017 Dandelion</p>
+        <p class="text-muted">&copy 2017 Clare Allanson</p>
     </div>
 </footer>
 <!-- Bootstrap core JavaScript
